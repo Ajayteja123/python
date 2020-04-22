@@ -1,8 +1,6 @@
-class Ram:
-    def __init__(self, m1):
-        self.m1 = m1
+n = int(input())
 
-
-s = int(input("enter the number"))
-r = Ram(s)
-print(r.m1)
+if n % 3 == 0:
+    print('Weird')
+elif n == 24:
+    print('Not Weird')
