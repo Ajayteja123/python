@@ -16,4 +16,5 @@ dic = {'name': '', 'age': ''}
 #d = dic.fromkeys(['name', 'age'], 'unknown')
 # print(d)
 # print(dic['names'])
+#
 print(dic.get('names'))
