@@ -1,4 +1,0 @@
-ajay,19,mo,male,student,agreed
-ajay,12,lsnilvd,male,student,agreed
-  dc,kn,b,kn,male,student,agreed
-lfml;m,ndklsn,d;lgm,male,student,agreed
