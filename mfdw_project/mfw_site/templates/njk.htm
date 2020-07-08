@@ -1,0 +1,106 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      login page
+      
+    </title>
+    <link rel="stylesheet" href="{% static 'te.css' %}" />
+  </head>
+  <body>
+    <div class="topnav">
+      <nav>
+        <!-- <div></div>
+      <div></div>
+      <div></div> -->
+        <ul>
+          <li class="room">
+            <a style="margin-left: 14px;" href="http://127.0.0.1:8000/home" class="rt">home</a>
+          </li>
+
+          <li class="room">
+            <a href="#" class='rt'>contact</a>
+          </li>
+          <li class="room">
+            <a href="#" class="rt">service</a>
+          </li>
+          <input
+            style="
+              width: 541px;
+              margin: -3px;
+              margin-left: 56px;
+              margin-bottom: -6px;
+              margin-top: -6px;
+              border-radius: 15px;
+              height: 43ox;
+              padding: 8px;
+              padding-bottom: 11px;
+            "
+            type="text"
+            placeholder="Search.."
+          />
+          <img
+            style="
+              margin-left: 156px;
+              /* block-size: 23ox; */
+              height: 33px;
+              margin-top: -1px;
+              float: left;
+              width: 42px;
+              border-radius: 1651px;
+            "
+            src="{{'static/126083.png'}}"
+          />
+          <img
+            id="ram"
+            style="
+              margin-left: 24px;
+              /* block-size: 23ox; */
+              height: 33px;
+              margin-top: -1px;
+              float: left;
+              width: 42px;
+              border-radius: 1651px;
+            "
+            src="{{'static/j1400-1564559451.jpg'}}"
+            alt=""
+          />
+        </ul>
+        <!-- <div style="float: left;">
+        <img src="j1400-1564559451.jpg" alt="" />
+      </div> -->
+      </nav>
+      <!-- <div style="background-image: url('j1400-1564559451.jpg');"></div> -->
+      <img 
+      style="height: 61px;
+      margin-left: 47%;
+      border-radius: 52%;
+      width: 80px;
+      margin-top: 12%;"
+      src="{{'static/unnamed.jpg'}}">
+      <div class='aj'>
+      <!-- <img 
+      style="height: 18%;
+      margin-left: 41%;
+      border-radius: 214%;
+      width: 18%;"
+      src="getty.jpg"> -->
+      <h1>Login here</h1>
+      <form method="post" acion="">
+        {% csrf_token %}
+        <p>username</p>
+        <input type="text" name='' placeholder="enter your mail">
+        <p>password</p>
+        <input type="password" name='' placeholder="password">
+        <input type="submit" value="login">
+        <p></p>
+        <a href=# >forgot password?</a><br>
+        <a href=# >Don't have an account?</a>
+      </form>
+      </div>
+      
+  </body>
+</html>
